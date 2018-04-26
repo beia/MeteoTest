@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Beia Meteotest</string>
+
+    <string name="title_activity_show_forecast">ShowForecast</string>
+    <string name="logo_image_description">Beia Logo</string>
+    <string name="selector_page_text">Please select your location from the droplist below:</string>
+
+    <string name="intent_city_key">city</string>
+    <string name="intent_api_url_key">url</string>
+
+    <string-array name="forecast_locations">
+        <item>Select city|http://www.google.ro</item>
+        <item>Zanesti|http://api.meteotest.ch/beia/v1/forecast?location=1</item>
+        <item>Corbi|http://api.meteotest.ch/beia/v1/forecast?location=2</item>
+        <item>Zabala|http://api.meteotest.ch/beia/v1/forecast?location=3</item>
+        <item>Caracal|http://api.meteotest.ch/beia/v1/forecast?location=4</item>
+        <item>Insuratei|http://api.meteotest.ch/beia/v1/forecast?location=5</item>
+        <item>Comlosu Mic|http://api.meteotest.ch/beia/v1/forecast?location=6</item>
+        <item>Marghita|http://api.meteotest.ch/beia/v1/forecast?location=7</item>
+    </string-array>
+</resources>
