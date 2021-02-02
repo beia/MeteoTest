@@ -11,6 +11,8 @@
         android:theme="@style/AppTheme">
 
         <activity android:name=".LocationSelectorActivity">
+            <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing"
+                android:value="true" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -18,7 +20,9 @@
         </activity>
         <activity
             android:name=".ForecastShowActivity"
-            android:parentActivityName=".LocationSelectorActivity">
+            android:parentActivityName=".LocationSelectorActivity"
+            android:exported="false"
+            >
 
             <intent-filter>
                 <action android:name="ro.beia.meteotest.ForecastShow" />
