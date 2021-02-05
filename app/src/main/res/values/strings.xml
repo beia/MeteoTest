@@ -10,12 +10,12 @@
 
     <string-array name="forecast_locations">
         <item>Select city|http://www.google.ro</item>
-        <item>Zanesti|http://api.meteotest.ch/beia/v1/forecast?location=1</item>
-        <item>Corbi|http://api.meteotest.ch/beia/v1/forecast?location=2</item>
-        <item>Zabala|http://api.meteotest.ch/beia/v1/forecast?location=3</item>
-        <item>Caracal|http://api.meteotest.ch/beia/v1/forecast?location=4</item>
-        <item>Insuratei|http://api.meteotest.ch/beia/v1/forecast?location=5</item>
-        <item>Comlosu Mic|http://api.meteotest.ch/beia/v1/forecast?location=6</item>
-        <item>Marghita|http://api.meteotest.ch/beia/v1/forecast?location=7</item>
+        <item>Zanesti|https://api.meteotest.ch/beia/v1/forecast?location=1</item>
+        <item>Corbi|https://api.meteotest.ch/beia/v1/forecast?location=2</item>
+        <item>Zabala|https://api.meteotest.ch/beia/v1/forecast?location=3</item>
+        <item>Caracal|https://api.meteotest.ch/beia/v1/forecast?location=4</item>
+        <item>Insuratei|https://api.meteotest.ch/beia/v1/forecast?location=5</item>
+        <item>Comlosu Mic|https://api.meteotest.ch/beia/v1/forecast?location=6</item>
+        <item>Marghita|https://api.meteotest.ch/beia/v1/forecast?location=7</item>
     </string-array>
 </resources>
